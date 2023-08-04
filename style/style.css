@@ -1,0 +1,25 @@
+body {
+    font-family: var(--FontFamily);
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-family);
+    padding: var(--default-padding);
+    background: var(--RadialGradient);
+    min-height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+.title {
+    border: 2px solid var(--HeaderOutline);
+    border-radius: 20px;
+    width: 60%;
+}

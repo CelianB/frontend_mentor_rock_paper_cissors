@@ -1,0 +1,39 @@
+:root {
+    /* --width-mobile: 375px;
+    --width-desktop: 1366px; */
+
+    /* Primary */
+    --ScissorsGradient: linear-gradient(0deg, hsl(39, 89%, 49%) 0%, hsl(40, 84%, 53%) 100%);
+    --PaperGradient: linear-gradient(0deg, hsl(230, 89%, 62%) 0%, hsl(230, 89%, 65%) 100%);
+    --RockGradient: linear-gradient(0deg, hsl(349, 71%, 52%) 0%, hsl(349, 70%, 56%) 100%);
+    --LizardGradient: linear-gradient(0deg, hsl(261, 73%, 60%) 0%, hsl(261, 72%, 63%) 100%);
+    --CyanGradient: linear-gradient(0deg, hsl(189, 59%, 53%) 0%, hsl(189, 58%, 57%) 100%);
+
+    /* Neutral */
+    --DarkText: hsl(229, 25%, 31%);
+    --ScoreText: hsl(229, 64%, 46%);
+    --HeaderOutline: hsl(217, 16%, 45%);
+
+    /* Background */
+    --RadialGradient: radial-gradient(circle at top, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+
+    /* Fonts */
+    --FontFamily: 'Barlow Semi Condensed', sans-serif;
+
+    /* Default values */
+    --default-padding: 20px;
+
+}
+
+.attribution {
+    position: fixed;
+    font-size: 13px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.attribution a {
+    color: whitesmoke;
+}
