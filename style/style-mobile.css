@@ -1,0 +1,20 @@
+@media screen and (max-width: 900px) {
+    .header {
+        width: 90%;
+        padding: 10px;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    h1{
+        padding: 30px 20px;
+    }
+    .score_value{
+        font-size: 4rem;
+    }
+
+    .rules {
+        right: calc(50% - 80px);
+        bottom: 50px;
+    }
+  }
